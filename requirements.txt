@@ -1,0 +1,26 @@
+# Core Dependencies for ETL Pipeline
+# ====================================
+
+# Apache Airflow - Workflow orchestration
+apache-airflow==2.7.1
+
+# Airflow Providers - Database and HTTP connections
+apache-airflow-providers-postgres==5.2.2
+apache-airflow-providers-http==4.0.0
+
+# Apache Spark - Big data processing
+pyspark==3.5.0
+findspark==2.0.1
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.4
+
+# HTTP Requests - For API calls
+requests==2.31.0
+
+# PostgreSQL Driver
+psycopg2-binary==2.9.8
+
+# Note: Airflow installs many dependencies automatically
+# These are the core packages needed for this project
